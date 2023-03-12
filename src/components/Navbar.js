@@ -7,7 +7,7 @@ import { navLinks } from '../constants';
 function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className=" flex  items-center py-4 justify-between  w-full">
+    <nav className=" flex  items-center py-6 justify-between  w-full z-10">
       <img src={logo} alt="logo" className=" flex justify-start" />
       <ul className="flex-1 ml-[100px] lg:flex hidden ">
         {navLinks.map((link) => (
@@ -33,11 +33,11 @@ function Navbar() {
       <div
         className={`${
           toggle ? 'flex' : 'hidden'
-        } absolute right-0 top-20  mx-4 my-2 min-w-[140px] rounded-xl  `}
+        } absolute right-0 top-20  mx-4 my-2 min-w-[140px] rounded-xl`}
       >
-        <ul className="flex-1  flex  flex-col justify-end items-center  bg-white ">
+        <ul className="flex-1  flex  flex-col rounded-lg justify-end items-center overflow-auto bg-white  transition duration-150 ease-ou ">
           {navLinks.map((link) => (
-            <li className=" text-white font-semibold text-[15px] mr-4 mb-6 mt-3">
+            <li className=" text-primary font-semibold text-[15px] mr-4 mb-6 mt-4">
               {link.title}
             </li>
           ))}
