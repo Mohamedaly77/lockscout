@@ -1,10 +1,9 @@
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Landing from './components/Landing';
 import styles from './style';
 import Features from './components/Features';
-import CTA from './components/CTA';
+import Hero from './components/Hero';
 
 function App() {
   return (
@@ -15,6 +14,7 @@ function App() {
 
       <Landing />
       <Features />
+      <Hero />
     </>
   );
 }

@@ -20,7 +20,7 @@ function Features() {
         </p>
       </div>
       <div className="">
-        <div className="   mt-6 w-full justify-center flex  md:flex-nowrap flex-wrap">
+        <div className="   mt-6  flex-1 justify-center flex  md:flex-nowrap flex-wrap">
           <div className=" flex flex-col justify-center w-full md:py-0 py-6">
             <img src={icon} alt="icon" className=" w-[48px] h-[48px]" />
             <h4 className=" font-bold mt-3">Easier Work Organization</h4>
