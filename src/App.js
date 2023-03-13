@@ -3,6 +3,8 @@ import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Landing from './components/Landing';
 import styles from './style';
+import Features from './components/Features';
+import CTA from './components/CTA';
 
 function App() {
   return (
@@ -11,9 +13,8 @@ function App() {
         <Navbar />
       </div>
 
-      <Routes>
-        <Route path="/" element={<Landing />} />
-      </Routes>
+      <Landing />
+      <Features />
     </>
   );
 }

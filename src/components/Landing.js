@@ -8,7 +8,7 @@ import slack from '../assets/slack.svg';
 function Landing() {
   return (
     <section
-      className={` flex  lg:flex-row  flex-col-reverse ${styles.paddingY} ${styles.paddingX} bg-primary min-h-screen justify-center relative`}
+      className={` flex  lg:flex-row  flex-col-reverse ${styles.paddingY} ${styles.paddingX} bg-primary min-h-[500px] justify-center`}
     >
       <div className={`flex flex-col items-center w-full  ${styles.paddingY}`}>
         <div className=" flex justify-start flex-col w-full">
