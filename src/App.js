@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials';
 import Blog from './components/Blog';
 import Logo from './components/Logo';
 import CTA from './components/CTA';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Blog />
       <Logo />
       <CTA />
+      <Footer />
     </>
   );
 }

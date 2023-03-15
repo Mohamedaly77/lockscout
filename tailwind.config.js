@@ -13,6 +13,7 @@ module.exports = {
         darkGrey: '#272D37',
         gray2: '#A5ACBA',
         neutral: '#F8F9FB',
+        input: '#2E3545',
       },
       fontFamily: 'inter',
     },

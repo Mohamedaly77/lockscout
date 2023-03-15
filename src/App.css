@@ -18,7 +18,20 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.sidebar {
+  animation-name: slie-top;
+  animation-duration: 2s;
+  transition: translateY(100px);
+}
 
+@keyframes slide-top {
+  from {
+    transform: translateY(500px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
