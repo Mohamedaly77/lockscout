@@ -19,17 +19,16 @@
   }
 }
 .sidebar {
-  animation-name: slie-top;
+  animation-name: slide-top;
   animation-duration: 2s;
-  transition: translateY(100px);
 }
 
 @keyframes slide-top {
   from {
-    transform: translateY(500px);
+    transform: translateX(-700px);
   }
   to {
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 .App-header {

@@ -6,7 +6,7 @@ import { footerLinks } from '../constants';
 function Footer() {
   return (
     <section
-      className={`${styles.flexCenter} ${styles.paddingY} ${styles.paddingX} mt-6 mb-3 flex-col bg-darkGrey`}
+      className={`${styles.flexCenter} ${styles.paddingY} ${styles.paddingX}  flex-col bg-darkGrey border-b-2  border-gray2 `}
     >
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
         <div className=" flex-1 flex flex-col  justify-start mr-10">

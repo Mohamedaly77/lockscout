@@ -33,9 +33,9 @@ function Navbar() {
       <div
         className={`${
           toggle ? 'flex' : 'hidden'
-        } absolute right-0 top-20  mx-4 my-2 min-w-[140px] rounded-xl sidebar `}
+        } absolute right-0 top-20 w-[100%]   mx-4 my-2 min-w-[140px] rounded-xl  `}
       >
-        <ul className="flex-1  flex  flex-col rounded-lg justify-end items-center overflow-auto ease-in bg-white ">
+        <ul className="flex-1  flex  flex-col rounded-lg justify-end items-center overflow-auto ease-in bg-white sidebar ">
           {navLinks.map((link) => (
             <li className=" text-primary font-semibold text-[15px] mr-4 mb-6 mt-4">
               {link.title}

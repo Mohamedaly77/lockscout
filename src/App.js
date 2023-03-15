@@ -10,6 +10,7 @@ import Blog from './components/Blog';
 import Logo from './components/Logo';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
+import Social from './components/Social';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Logo />
       <CTA />
       <Footer />
+      <Social />
     </>
   );
 }

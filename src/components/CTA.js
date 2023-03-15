@@ -4,7 +4,7 @@ import check from '../assets/Checkbox Base.png';
 
 function CTA() {
   return (
-    <section id="cta" className={`${styles.flexCenter} bg-neutral`}>
+    <section id="cta" className={`${styles.flexCenter} bg-neutral pb-3`}>
       <div>
         <h3 className="text-primary text-[14px] flex justify-center w-full mt-4">
           1% OF THE INDUSTRY
