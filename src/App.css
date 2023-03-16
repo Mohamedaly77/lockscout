@@ -54,3 +54,18 @@
     transform: rotate(360deg);
   }
 }
+
+.hero {
+  animation: slide;
+  animation-duration: 2s;
+}
+
+@keyframes slide {
+  from {
+    transform: translateY(300px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}

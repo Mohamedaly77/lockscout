@@ -5,6 +5,8 @@ import gitlab from '../assets/Gitlab.svg';
 import paypal from '../assets/paypal.svg';
 import netflix from '../assets/Netflix.svg';
 import slack from '../assets/slack.svg';
+import TypeWriterEffect from 'react-typewriter-effect';
+
 function Landing() {
   return (
     <section
@@ -12,9 +14,19 @@ function Landing() {
     >
       <div className={`flex flex-col items-center w-full  ${styles.paddingY}`}>
         <div className=" flex justify-start flex-col w-full">
-          <h1 className=" text-white w-full text-[52px] font-bold">
-            Your Supercharged <br /> Design Workflow.
-          </h1>
+          <TypeWriterEffect
+            textStyle={{
+              color: '#fff',
+              fontWeight: 'bold',
+              fontSize: '52px',
+            }}
+            startDelay={2000}
+            cursorColor="#fff"
+            multiText={[' Your Supercharged Design workflow']}
+            multiTextDelay={1500}
+            typeSpeed={100}
+          />
+
           <p className="text-primary4 max-w-[550px]  mt-5  ">
             We’ve been told it is not possible to overachieve our customers’
             expectations. We have not reinvented the wheel, we decided to build

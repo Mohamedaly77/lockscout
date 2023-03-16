@@ -12,7 +12,7 @@ function Hero() {
       >
         <img src={hero} alt="hero" />
         <div className={`flex flex-col  justify-center items-center w-full`}>
-          <div className=" flex  md:py-0 py-6 ">
+          <div className=" flex  md:py-0 py-6 hero ">
             <img src={expo} alt="expo" className=" w-[48px] h-[48px]" />
             <div className=" flex flex-col ml-4 ">
               <h1 className=" text-white font-bold text-[22px]">
@@ -29,7 +29,7 @@ function Hero() {
               </div>
             </div>
           </div>
-          <div className=" flex  mt-5 md:py-0 py-6 ">
+          <div className=" flex  mt-5 md:py-0 py-6 hero ">
             <img src={ideas} alt="expo" className=" w-[48px] h-[48px]" />
             <div className=" flex flex-col ml-4">
               <h1 className=" text-white font-bold text-[22px]">
@@ -46,7 +46,7 @@ function Hero() {
               </div>
             </div>
           </div>
-          <div className=" flex  mt-5 md:py-0 py-6">
+          <div className=" flex  mt-5 md:py-0 py-6 hero">
             <img src={ideas} alt="expo" className=" w-[48px] h-[48px]" />
             <div className=" flex flex-col ml-4">
               <h1 className=" text-white font-bold text-[22px]">
