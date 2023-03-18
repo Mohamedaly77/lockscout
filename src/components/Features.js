@@ -11,7 +11,7 @@ function Features() {
   return (
     <div className={` ${styles.paddingX} ${styles.paddingY}`}>
       <div className="  w-full flex flex-col justify-center ">
-        <h1 className=" text-darkGrey text-[32px] font-bold w-full flex justify-center">
+        <h1 className=" text-darkGrey text-[32px] font-bold w-full flex justify-center message">
           Messaging for all
         </h1>
         <p className=" text-gray font-normal flex  justify-center   ">

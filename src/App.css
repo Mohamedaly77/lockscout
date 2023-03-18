@@ -69,3 +69,30 @@
     transform: translateY(0px);
   }
 }
+
+.close {
+  animation: rotate;
+  animation-duration: 1s;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.message {
+  animation: opacity;
+  animation-duration: 5s;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 10;
+  }
+}

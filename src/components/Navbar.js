@@ -3,7 +3,6 @@ import logo from '../assets/Company Logo (1).png';
 import open from '../assets/window open.svg';
 import close from '../assets/close.svg';
 import { navLinks } from '../constants';
-import Typewriter from 'typewriter-effect/dist/core';
 
 function Navbar() {
   const [toggle, setToggle] = useState(false);
@@ -29,6 +28,7 @@ function Navbar() {
           src={toggle ? close : open}
           alt="close"
           onClick={() => setToggle((prev) => !prev)}
+          className="close"
         />
       </div>
       <div
